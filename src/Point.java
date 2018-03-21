@@ -1,4 +1,8 @@
-
+/**
+ * This class represents a 2D Point
+ * @author Ahmad
+ *
+ */
 public class Point {
 
 	private int x;
@@ -24,15 +28,6 @@ public class Point {
 	public void setY(int y){
 		this.y = y;
 	}
-	/*
-	public boolean equals(Object p){
-		return ((x == ((Point)p).x) && (y == ((Point)p).y));
-	}
-	
-	public int hashCode() {
-	    String hash = new Integer(x).toString() + new Integer(y).toString();
-	    return hash.hashCode();
-	}*/
 
 	@Override
 	public int hashCode() {
